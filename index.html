@@ -31,39 +31,59 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h1>New Relic Nuget Packages</h1>
+        <h1>
+<a name="new-relic-nuget-packages" class="anchor" href="#new-relic-nuget-packages"><span class="octicon octicon-link"></span></a>New Relic Nuget Packages</h1>
 
-<h3><a href="https://github.com/newrelic/nuget-azure-cloud-services">nuget-azure-cloud-services</a></h3>
+<h3>
+<a name="nuget-azure-cloud-services" class="anchor" href="#nuget-azure-cloud-services"><span class="octicon octicon-link"></span></a><a href="https://github.com/newrelic/nuget-azure-cloud-services">nuget-azure-cloud-services</a>
+</h3>
 
 <p>The package that includes the latest New Relic x64 installer, so that you can easily include New Relic in your Windows Azure deployment.</p>
 
 <pre><code>&gt; git clone git@github.com:newrelic/nuget-azure-cloud-services.git
 </code></pre>
 
-<h3><a href="https://github.com/newrelic/nuget-azure-web-sites">nuget-azure-web-sites</a></h3>
+<h3>
+<a name="nuget-azure-web-sites" class="anchor" href="#nuget-azure-web-sites"><span class="octicon octicon-link"></span></a><a href="https://github.com/newrelic/nuget-azure-web-sites">nuget-azure-web-sites</a>
+</h3>
 
-<p>Experimental (This package does not exist on nuget.org) - The nuget package for x86 apps (of type "web site") running on Windows Azure.</p>
+<p>The nuget package for x86 apps (of type "web site") running on Windows Azure.</p>
 
 <pre><code>&gt; git clone git@github.com:newrelic/nuget-azure-web-sites.git
 </code></pre>
 
-<h3><a href="https://github.com/newrelic/nuget-agent-api-x86">nuget-agent-api-x86</a></h3>
+<h3>
+<a name="nuget-azure-web-sites-x64" class="anchor" href="#nuget-azure-web-sites-x64"><span class="octicon octicon-link"></span></a><a href="https://github.com/newrelic/nuget-azure-web-sites-x64">nuget-azure-web-sites-x64</a>
+</h3>
+
+<p>The nuget package for x64 apps (of type "web site") running on Windows Azure.</p>
+
+<pre><code>&gt; git clone git@github.com:newrelic/nuget-azure-web-sites-x64.git
+</code></pre>
+
+<h3>
+<a name="nuget-agent-api-x86" class="anchor" href="#nuget-agent-api-x86"><span class="octicon octicon-link"></span></a><a href="https://github.com/newrelic/nuget-agent-api-x86">nuget-agent-api-x86</a>
+</h3>
 
 <p>The New Relic .NET Agent API supports custom error and metric reporting, and custom transaction parameters. If the agent is not installed or is disabled, method invocations of this API will have no effect. You can find more information about the NewRelic.Agent.Api at <a href="http://newrelic.com/docs/dotnet/AgentApi">http://newrelic.com/docs/dotnet/AgentApi</a>.</p>
 
 <pre><code>&gt; git clone git@github.com:newrelic/nuget-agent-api-x86.git
 </code></pre>
 
-<h3><a href="https://github.com/newrelic/nuget-agent-api-x64">nuget-agent-api-x64</a></h3>
+<h3>
+<a name="nuget-agent-api-x64" class="anchor" href="#nuget-agent-api-x64"><span class="octicon octicon-link"></span></a><a href="https://github.com/newrelic/nuget-agent-api-x64">nuget-agent-api-x64</a>
+</h3>
 
 <p>The New Relic .NET Agent API supports custom error and metric reporting, and custom transaction parameters. If the agent is not installed or is disabled, method invocations of this API will have no effect. You can find more information about the NewRelic.Agent.Api at <a href="http://newrelic.com/docs/dotnet/AgentApi">http://newrelic.com/docs/dotnet/AgentApi</a>.</p>
 
 <pre><code>&gt; git clone git@github.com:newrelic/nuget-agent-api-x64.git
 </code></pre>
 
-<h2>Contribute</h2>
+<h2>
+<a name="contribute" class="anchor" href="#contribute"><span class="octicon octicon-link"></span></a>Contribute</h2>
 
-<h3>Setting up your local environment to contribute</h3>
+<h3>
+<a name="setting-up-your-local-environment-to-contribute" class="anchor" href="#setting-up-your-local-environment-to-contribute"><span class="octicon octicon-link"></span></a>Setting up your local environment to contribute</h3>
 
 <ol>
 <li>Open visual studio</li>
@@ -71,14 +91,16 @@
 <li>Under the Package Manager, click on Package sources</li>
 <li>Create a source named "Local" and set the directory to where you cloned the repositories (something like "c:\code\newrelic_nuget_packages")</li>
 <li>Click Add then "OK"</li>
-</ol><h3>Using the packages locally</h3>
+</ol><h3>
+<a name="using-the-packages-locally" class="anchor" href="#using-the-packages-locally"><span class="octicon octicon-link"></span></a>Using the packages locally</h3>
 
 <ol>
 <li> To use it you can open up your web app and choose &gt;&gt; tools &gt;&gt; Library Package Manager &gt;&gt; Package manager console</li>
 <li> In the console make sure that the source drop down is set to local</li>
 <li> Then type in "Install-Package [PACKAGE-NAME]"</li>
 <li> Hit enter</li>
-</ol><h3>Pull requests</h3>
+</ol><h3>
+<a name="pull-requests" class="anchor" href="#pull-requests"><span class="octicon octicon-link"></span></a>Pull requests</h3>
 
 <ol>
 <li><a href="https://help.github.com/articles/fork-a-repo">Fork the repository</a></li>
